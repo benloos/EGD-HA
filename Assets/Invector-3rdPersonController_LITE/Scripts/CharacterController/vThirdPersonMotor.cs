@@ -54,6 +54,7 @@ namespace Invector.vCharacterController
         public float groundMaxDistance = 0.5f;
         [Tooltip("Max angle to walk")]
         [Range(30, 80)] public float slopeLimit = 75f;
+        public ParticleSystem groundParticles;
         #endregion
 
         #region Components
@@ -295,6 +296,10 @@ namespace Invector.vCharacterController
 
             if (groundDistance <= groundMinDistance)
             {
+                if (!isGrounded)
+                {
+                    groundParticles.Play();
+                }
                 isGrounded = true;
                 if (!isJumping && groundDistance > 0.05f)
                     _rigidbody.AddForce(transform.up * (extraGravity * 2 * Time.deltaTime), ForceMode.VelocityChange);
