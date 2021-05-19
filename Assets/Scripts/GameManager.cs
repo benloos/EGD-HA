@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
 
     private float startTime;
     private float elapsedTime;
-    //timePlaying.ToString("hh': 'mm': 'ss'");
 
     private void Awake()
     {
@@ -40,6 +39,7 @@ public class GameManager : MonoBehaviour
     public void EndTimer()
     {
         timerGoing = false;
+        timer.GetComponent<TweenObject>().doScaleTween();
     }
 
     private IEnumerator UpdateTimer()
