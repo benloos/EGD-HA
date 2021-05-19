@@ -7,6 +7,7 @@ public class Respawn : MonoBehaviour
     [SerializeField]
     Vector3 respawn = new Vector3(2.0f, 1.0f, -15.0f);
     [SerializeField] private AudioClip Teleport;
+    public ParticleSystem respawnParticles;
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,7 @@ public class Respawn : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(Teleport, Camera.main.transform.position);
             other.transform.position = respawn;
+            respawnParticles.Play();
         }
     }
 }
