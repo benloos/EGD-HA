@@ -4,6 +4,7 @@ namespace Invector.vCharacterController
 {
     public class vThirdPersonInput : MonoBehaviour
     {
+    
         #region Variables       
 
         [Header("Controller Input")]
@@ -34,6 +35,7 @@ namespace Invector.vCharacterController
             cc.UpdateMotor();               // updates the ThirdPersonMotor methods
             cc.ControlLocomotionType();     // handle the controller locomotion type and movespeed
             cc.ControlRotationType();       // handle the controller rotation type
+           
         }
 
         protected virtual void Update()
@@ -45,6 +47,7 @@ namespace Invector.vCharacterController
         public virtual void OnAnimatorMove()
         {
             cc.ControlAnimatorRootMotion(); // handle root motion animations 
+       
         }
 
         #region Basic Locomotion Inputs
@@ -79,12 +82,14 @@ namespace Invector.vCharacterController
             SprintInput();
             StrafeInput();
             JumpInput();
+            
         }
 
         public virtual void MoveInput()
         {
             cc.input.x = Input.GetAxis(horizontalInput);
             cc.input.z = Input.GetAxis(verticallInput);
+           
         }
 
         protected virtual void CameraInput()

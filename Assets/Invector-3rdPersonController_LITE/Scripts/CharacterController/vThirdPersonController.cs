@@ -3,7 +3,11 @@
 namespace Invector.vCharacterController
 {
     public class vThirdPersonController : vThirdPersonAnimator
+          
     {
+        [SerializeField] private AudioClip jump;
+
+
         public virtual void ControlAnimatorRootMotion()
         {
             if (!this.enabled) return;
@@ -12,10 +16,13 @@ namespace Invector.vCharacterController
             {
                 transform.position = animator.rootPosition;
                 transform.rotation = animator.rootRotation;
+       
+
             }
 
             if (useRootMotion)
                 MoveCharacter(moveDirection);
+          
         }
 
         public virtual void ControlLocomotionType()
@@ -26,16 +33,21 @@ namespace Invector.vCharacterController
             {
                 SetControllerMoveSpeed(freeSpeed);
                 SetAnimatorMoveSpeed(freeSpeed);
+              
             }
             else if (locomotionType.Equals(LocomotionType.OnlyStrafe) || locomotionType.Equals(LocomotionType.FreeWithStrafe) && isStrafing)
             {
                 isStrafing = true;
                 SetControllerMoveSpeed(strafeSpeed);
                 SetAnimatorMoveSpeed(strafeSpeed);
+               
             }
 
             if (!useRootMotion)
-                MoveCharacter(moveDirection);
+         
+            MoveCharacter(moveDirection);
+           
+
         }
 
         public virtual void ControlRotationType()
@@ -51,7 +63,9 @@ namespace Invector.vCharacterController
 
                 Vector3 dir = (isStrafing && (!isSprinting || sprintOnlyFree == false) || (freeSpeed.rotateWithCamera && input == Vector3.zero)) && rotateTarget ? rotateTarget.forward : moveDirection;
                 RotateToDirection(dir);
+            
             }
+        
         }
 
         public virtual void UpdateMoveDirection(Transform referenceTransform = null)
@@ -71,11 +85,14 @@ namespace Invector.vCharacterController
                 var forward = Quaternion.AngleAxis(-90, Vector3.up) * right;
                 // determine the direction the player will face based on input and the referenceTransform's right and forward directions
                 moveDirection = (inputSmooth.x * right) + (inputSmooth.z * forward);
+                
             }
             else
             {
                 moveDirection = new Vector3(inputSmooth.x, 0, inputSmooth.z);
+            
             }
+            
         }
 
         public virtual void Sprint(bool value)
@@ -105,11 +122,13 @@ namespace Invector.vCharacterController
             {
                 isSprinting = false;
             }
+           
         }
 
         public virtual void Strafe()
         {
             isStrafing = !isStrafing;
+  
         }
 
         public virtual void Jump()
@@ -123,6 +142,7 @@ namespace Invector.vCharacterController
                 animator.CrossFadeInFixedTime("Jump", 0.1f);
             else
                 animator.CrossFadeInFixedTime("JumpMove", .2f);
+            AudioSource.PlayClipAtPoint(jump, Camera.main.transform.position);
         }
     }
 }

@@ -4,6 +4,7 @@ namespace Invector.vCharacterController
 {
     public class vThirdPersonMotor : MonoBehaviour
     {
+       
         #region Inspector Variables
 
         [Header("- Movement")]
@@ -180,10 +181,13 @@ namespace Invector.vCharacterController
 
             Vector3 targetPosition = (useRootMotion ? animator.rootPosition : _rigidbody.position) + _direction * (stopMove ? 0 : moveSpeed) * Time.deltaTime;
             Vector3 targetVelocity = (targetPosition - transform.position) / Time.deltaTime;
+           
 
             bool useVerticalVelocity = true;
             if (useVerticalVelocity) targetVelocity.y = _rigidbody.velocity.y;
+          
             _rigidbody.velocity = targetVelocity;
+         
         }
 
         public virtual void CheckSlopeLimit()
@@ -305,6 +309,7 @@ namespace Invector.vCharacterController
                     _rigidbody.AddForce(transform.up * (extraGravity * 2 * Time.deltaTime), ForceMode.VelocityChange);
 
                 heightReached = transform.position.y;
+             
             }
             else
             {
@@ -323,6 +328,7 @@ namespace Invector.vCharacterController
                 else if (!isJumping)
                 {
                     _rigidbody.AddForce(transform.up * (extraGravity * 2 * Time.deltaTime), ForceMode.VelocityChange);
+                  
                 }
             }
         }
