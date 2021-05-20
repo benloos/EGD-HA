@@ -11,7 +11,7 @@ public class StartController : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GameManager.current.BeginTimer();
-          AudioSource.PlayClipAtPoint(start, Camera.main.transform.position);
+            AudioSource.PlayClipAtPoint(start, Camera.main.transform.position, 0.2f);
         }
     }
 }

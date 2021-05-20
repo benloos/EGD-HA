@@ -14,7 +14,7 @@ public class FinishController : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GameManager.current.EndTimer();
-            AudioSource.PlayClipAtPoint(rejoice, Camera.main.transform.position);
+            AudioSource.PlayClipAtPoint(rejoice, Camera.main.transform.position, 0.8f);
             
 
         }
