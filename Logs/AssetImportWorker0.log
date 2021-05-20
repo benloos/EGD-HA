@@ -1,640 +1,116 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'de' Physical Memory: 7934 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'de' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+G:\Unity\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/wwwdi/OneDrive/Documents/GitHub/EGD-HA
+G:/Unity/EGD-HA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63366
-Successfully changed project path to: C:/Users/wwwdi/OneDrive/Documents/GitHub/EGD-HA
-C:/Users/wwwdi/OneDrive/Documents/GitHub/EGD-HA
+61956
+Successfully changed project path to: G:/Unity/EGD-HA
+G:/Unity/EGD-HA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/wwwdi/OneDrive/Documents/GitHub/EGD-HA/Assets
+[Subsystems] Discovering subsystems at path G:/Unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/EGD-HA/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   
-    VRAM:     3967 MB
-    Driver:   27.20.100.8729
+    VRAM:     4043 MB
+    Driver:   27.21.14.6647
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Mono path[0] = 'G:/Unity/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006321 seconds.
+Register platform support module: G:/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001356 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.251 seconds
+- Completed reload, in  0.895 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001414 seconds.
+Registered in 0.000569 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.239 seconds
+- Completed reload, in  0.887 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.4 MB.
-System memory in use after: 78.4 MB.
+System memory in use before: 78.6 MB.
+System memory in use after: 78.6 MB.
 
 Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 1972.
-Total: 4.770900 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.112600 ms MarkObjects: 3.701000 ms  DeleteObjects: 0.685800 ms)
+Total: 2.088100 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.709700 ms  DeleteObjects: 0.167900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat
-  artifactKey: Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat using Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b128cf4b31ea671eb60db9f716bebcea') in 0.294811 seconds
-  Import took 0.302218 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ec2eaa2ef12b66810c70348cafb534') in 0.060196 seconds
+  Import took 0.062766 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_18_2_Ambient_Occlusion.png
-  artifactKey: Guid(0bccb8e54e844424998c479c2a77080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_18_2_Ambient_Occlusion.png using Guid(0bccb8e54e844424998c479c2a77080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc26790d8ea1d06f34d724c5a411951') in 0.098858 seconds
-  Import took 0.104565 seconds .
+  Time since last request: 334.299590 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ae5bae601732ac545b5ef6e108199d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ae5bae601732ac545b5ef6e108199d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0852dc37e055349bb286501866f7f1fe') in 0.006940 seconds
+  Import took 0.011716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Prefabs/Finish.prefab
-  artifactKey: Guid(bf21454a76655d24699e46ed7a8f4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Finish.prefab using Guid(bf21454a76655d24699e46ed7a8f4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f885becd72fd165eb1d47d994310ae3') in 0.076460 seconds
-  Import took 0.082855 seconds .
+  Time since last request: 0.000549 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ae5bae601732ac545b5ef6e108199d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ae5bae601732ac545b5ef6e108199d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0852dc37e055349bb286501866f7f1fe') in 0.002161 seconds
+  Import took 0.005403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_19_4_Roughness.png
-  artifactKey: Guid(0c454ba922aedb9419fd6ed6875cb63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_19_4_Roughness.png using Guid(0c454ba922aedb9419fd6ed6875cb63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e287e5f2618a0d632158e09f17f5fe') in 0.052665 seconds
-  Import took 0.058839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/Stylized Grass Texture/Textures/vol_2_3_Roughness.png
-  artifactKey: Guid(293e4f1537bb38545b9d96e01d2e47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/vol_2_3_Roughness.png using Guid(293e4f1537bb38545b9d96e01d2e47f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baafd1b7af77116a86705f9bd813f169') in 0.053805 seconds
-  Import took 0.059695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_27_4_Ambient_Occlusion.png
-  artifactKey: Guid(562be93866ac0e047b1dc8dbce3f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_27_4_Ambient_Occlusion.png using Guid(562be93866ac0e047b1dc8dbce3f731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3a5433b3b87d77fc28f66753e3c74c') in 0.059674 seconds
-  Import took 0.064791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylized Stones.mat
-  artifactKey: Guid(55a512382d8a87e48bf3bb9092ecbf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylized Stones.mat using Guid(55a512382d8a87e48bf3bb9092ecbf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507a949b1bc9fe0604d95539fd699118') in 0.096368 seconds
-  Import took 0.101577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Wood  Diffuse.mat
-  artifactKey: Guid(4c577c226c9a1694c87afcaa1fe637d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Wood  Diffuse.mat using Guid(4c577c226c9a1694c87afcaa1fe637d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb432a20b994a31d343f98ad5ba744e5') in 0.065432 seconds
-  Import took 0.070345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Terrain Diffuse.mat
-  artifactKey: Guid(c7d0747bd7053804da8250ca0ea203d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Terrain Diffuse.mat using Guid(c7d0747bd7053804da8250ca0ea203d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270151cd367c59e71b1ab6bc7df04a64') in 0.071132 seconds
-  Import took 0.076730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/SFX/start.wav
-  artifactKey: Guid(af520fe091696184ea19fa3c122a32f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/start.wav using Guid(af520fe091696184ea19fa3c122a32f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3ec89ca93b41fbc91eff067fb45aa7') in 0.067049 seconds
-  Import took 0.072639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Metal Diffuse.mat
-  artifactKey: Guid(32db39bfc38054f47a8710c65f5c474f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Metal Diffuse.mat using Guid(32db39bfc38054f47a8710c65f5c474f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800e3eb478001f25369d71d7204b1333') in 0.067753 seconds
-  Import took 0.073328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000536 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_30_3_Roughness.png
-  artifactKey: Guid(4ac3516407adb194aaf21e3c7928bb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_30_3_Roughness.png using Guid(4ac3516407adb194aaf21e3c7928bb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98278cb5a17f6be8fd11640b462d14b4') in 0.071030 seconds
-  Import took 0.077339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Water.mat
-  artifactKey: Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Water.mat using Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d72565119c949eb451bdf9ac7258d9e') in 0.084599 seconds
-  Import took 0.090734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_19_4_Height.png
-  artifactKey: Guid(8a227c50dab076244a3682b6594cefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_19_4_Height.png using Guid(8a227c50dab076244a3682b6594cefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f212f272b375d0cd16002a6d2348fd') in 0.054885 seconds
-  Import took 0.061211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_22_4_Base_Color.png
-  artifactKey: Guid(9b9564cd828b001479f30f7b519ef809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_22_4_Base_Color.png using Guid(9b9564cd828b001479f30f7b519ef809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb17046207fd31a7fdcac0421a9918c') in 0.055147 seconds
-  Import took 0.061985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_19_4_Normal.png
-  artifactKey: Guid(5d1a91da624cbe3419894ef66da10da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_19_4_Normal.png using Guid(5d1a91da624cbe3419894ef66da10da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90060970a8b7be75262182cf22fe4ba9') in 0.063278 seconds
-  Import took 0.068869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/SFX/End.wav
-  artifactKey: Guid(aab65982f8c4c1347b36ac7d21e94d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/End.wav using Guid(aab65982f8c4c1347b36ac7d21e94d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8ee7144e17a525ac5d75741d5373a4') in 0.038570 seconds
-  Import took 0.043980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/SFX/teleeport.mp3
-  artifactKey: Guid(7c3822df014b6764ea3086f151ac763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/teleeport.mp3 using Guid(7c3822df014b6764ea3086f151ac763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3f50bb00454e2cbfe02d8375ccd9ab') in 0.057503 seconds
-  Import took 0.063365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Roof Diffuse.mat
-  artifactKey: Guid(ae46c28c81f79f8459dc9ed86baab735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Roof Diffuse.mat using Guid(ae46c28c81f79f8459dc9ed86baab735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177fcead0fd9af838726fac7f2432f90') in 0.067414 seconds
-  Import took 0.073005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_30_3_Height.png
-  artifactKey: Guid(f0f8764e25328fe4abf585fb5623b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_30_3_Height.png using Guid(f0f8764e25328fe4abf585fb5623b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70621b0f8d493b9d063bccc62e2471c4') in 0.063959 seconds
-  Import took 0.069831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_19_4_Ambient_Occlusion.png
-  artifactKey: Guid(76400e21d2b92c24ebe4a922cb01a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_19_4_Ambient_Occlusion.png using Guid(76400e21d2b92c24ebe4a922cb01a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fbe81e6bdffc2f294e15015e667561') in 0.057261 seconds
-  Import took 0.062398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Rock Diffuse.mat
-  artifactKey: Guid(2524905c4a99dff42981b604098cf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Rock Diffuse.mat using Guid(2524905c4a99dff42981b604098cf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dcaf82248d70982fc9085abb6dedfc') in 0.064736 seconds
-  Import took 0.071260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_27_4_Normal.png
-  artifactKey: Guid(8a805bd60a75fcb4da974f3312f9b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_27_4_Normal.png using Guid(8a805bd60a75fcb4da974f3312f9b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9c5f6d4b28cc76787bb9d8d18ea94d') in 0.063691 seconds
-  Import took 0.068552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Stylized Grass Texture/Textures/vol_2_3_Ambient_Occlusion.png
-  artifactKey: Guid(40a62786649ecba4280166147e79e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/vol_2_3_Ambient_Occlusion.png using Guid(40a62786649ecba4280166147e79e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1159844f0a352fcca0fdae2ff65180c3') in 0.051686 seconds
-  Import took 0.057372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_22_4_Height.png
-  artifactKey: Guid(30739d4f17365bb42956979fd7f132b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_22_4_Height.png using Guid(30739d4f17365bb42956979fd7f132b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2816e0690450ce0c6b352cfbbd4bc259') in 0.070888 seconds
-  Import took 0.077258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Snow.mat
-  artifactKey: Guid(eff9bd1fc3971e7499e63b512110dfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Snow.mat using Guid(eff9bd1fc3971e7499e63b512110dfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30f48cec942a86196306b1b6f35de27') in 0.078734 seconds
-  Import took 0.085422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000553 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylized Stones Diffuse.mat
-  artifactKey: Guid(7443e746634ee474b8a2748d8fb7250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylized Stones Diffuse.mat using Guid(7443e746634ee474b8a2748d8fb7250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95f0523db5cba8e351d1b86960a8481') in 0.065420 seconds
-  Import took 0.071511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_27_4_Roughness.png
-  artifactKey: Guid(012269f5bc1a8924688137c69a1778f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_27_4_Roughness.png using Guid(012269f5bc1a8924688137c69a1778f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528c836fa0e5dbfe9253d1e088f57917') in 0.056959 seconds
-  Import took 0.065122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_18_2_Normal.png
-  artifactKey: Guid(f0021e75e6bb30145bd307a3509523ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_18_2_Normal.png using Guid(f0021e75e6bb30145bd307a3509523ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9980bcf651313cccb68f1aef420f7bef') in 0.062318 seconds
-  Import took 0.067672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Wood .mat
-  artifactKey: Guid(2f5aab5a7a5aa1145997d0e48dc10332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Wood .mat using Guid(2f5aab5a7a5aa1145997d0e48dc10332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86651c82692de7ae999f8b0a4a6bf252') in 0.085022 seconds
-  Import took 0.091571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Terrain.mat
-  artifactKey: Guid(7475c0152fb3fbb48a312d226cc846bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Terrain.mat using Guid(7475c0152fb3fbb48a312d226cc846bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df46c76e64323ccf4a7e5e1ad9168fe0') in 0.075734 seconds
-  Import took 0.082334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000713 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize_Lava.mat
-  artifactKey: Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize_Lava.mat using Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee483a239923950479590ca332b2239e') in 0.142423 seconds
-  Import took 0.148678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Tile.mat
-  artifactKey: Guid(6922a499a3eec994c9b20588a6cfd3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Tile.mat using Guid(6922a499a3eec994c9b20588a6cfd3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0be13c8fb62e9c3b22be2186009ac2') in 0.089001 seconds
-  Import took 0.094490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Tile Diffuse.mat
-  artifactKey: Guid(799dfe846a7d5b24aa3788c26a784906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Tile Diffuse.mat using Guid(799dfe846a7d5b24aa3788c26a784906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25baf010800d5339bdad470a5998499f') in 0.054426 seconds
-  Import took 0.060280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000488 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_18_2_Height.png
-  artifactKey: Guid(e9705582760cdf64e8c1047a6f54d48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_18_2_Height.png using Guid(e9705582760cdf64e8c1047a6f54d48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081851cb4d530561d4b69d033c71f8ae') in 0.052580 seconds
-  Import took 0.058041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Stylized Grass Texture/Textures/vol_2_3_Base_Color.png
-  artifactKey: Guid(900f4bd6447eeb041a44d3066d2409ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/vol_2_3_Base_Color.png using Guid(900f4bd6447eeb041a44d3066d2409ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0e854a33bc747c34cb4d2764d470ba') in 0.057597 seconds
-  Import took 0.063759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize_Lava_diffuse.mat
-  artifactKey: Guid(3b3ab2ec86ef45c48b01abe26983a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize_Lava_diffuse.mat using Guid(3b3ab2ec86ef45c48b01abe26983a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875b5f0034a8e1cd91f244ff716aef97') in 0.053799 seconds
-  Import took 0.059819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_23_1_Normal.png
-  artifactKey: Guid(8c76dad3d59e548469bd252a15004d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_23_1_Normal.png using Guid(8c76dad3d59e548469bd252a15004d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af85e32746e0107689772fc87f7b2c18') in 0.062090 seconds
-  Import took 0.068201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/Stylized Grass Texture/Textures/vol_2_3_Height.png
-  artifactKey: Guid(ff699ec2e2baca441a519cd901ae2f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/vol_2_3_Height.png using Guid(ff699ec2e2baca441a519cd901ae2f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296f59755b711bbbc384e24f6f24dbae') in 0.048674 seconds
-  Import took 0.053681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_19_4_Base_Color.png
-  artifactKey: Guid(bd7d0d213a99c4b45ab6bc5789ca5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_19_4_Base_Color.png using Guid(bd7d0d213a99c4b45ab6bc5789ca5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed867cbea90771478606b6a51a6c0c6c') in 0.064075 seconds
-  Import took 0.070402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000699 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_22_4_Normal.png
-  artifactKey: Guid(3a5de69d8ecd71b439f9fb6e2057372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_22_4_Normal.png using Guid(3a5de69d8ecd71b439f9fb6e2057372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fd43e4bf5ec40d0cd05dae9dda9d05') in 0.058895 seconds
-  Import took 0.066395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_30_3_Normal.png
-  artifactKey: Guid(2a444e842ec5a6e4dabf7ea3160464fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_30_3_Normal.png using Guid(2a444e842ec5a6e4dabf7ea3160464fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d02a7db9c54b9015d3a3a852aa59c9') in 0.056431 seconds
-  Import took 0.062562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_22_4_Roughness.png
-  artifactKey: Guid(a733a7f5f5241414ea8bcacb27cbc2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_22_4_Roughness.png using Guid(a733a7f5f5241414ea8bcacb27cbc2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d0bee8d069092125112694eead4323') in 0.069453 seconds
-  Import took 0.075543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_23_1_Ambient_Occlusion.png
-  artifactKey: Guid(c7bb39eaf298b0f4d8f6eac79843b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_23_1_Ambient_Occlusion.png using Guid(c7bb39eaf298b0f4d8f6eac79843b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2803629e3a9e6e9a47bfb4789c7a7e') in 0.066233 seconds
-  Import took 0.072884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Prefabs/Start.prefab
-  artifactKey: Guid(4052b9f47dbe36643b075acfd2e45abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Start.prefab using Guid(4052b9f47dbe36643b075acfd2e45abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e453ea595f9de201ebc1469c2ec8df') in 0.033737 seconds
-  Import took 0.038808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Metal.mat
-  artifactKey: Guid(4190bd2c1ca0e9844a0cc93a84d083c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Metal.mat using Guid(4190bd2c1ca0e9844a0cc93a84d083c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337b34a4f078de717386df872c1b274c') in 0.080961 seconds
-  Import took 0.086441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_34_2_Ambient_Occlusion.png
-  artifactKey: Guid(2f57b493a02913c45bfb0d2a9e7fc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_34_2_Ambient_Occlusion.png using Guid(2f57b493a02913c45bfb0d2a9e7fc9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f797cf3d2dd4b3b517dc80727fe3309a') in 0.049640 seconds
-  Import took 0.056487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001476 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Roof.mat
-  artifactKey: Guid(0123e2fc881a0a54182d73604f5afc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Roof.mat using Guid(0123e2fc881a0a54182d73604f5afc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5990aa108fa0ae031382e43c057d937e') in 0.069622 seconds
-  Import took 0.075694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_23_1_Height.png
-  artifactKey: Guid(d994a0254a5f6f145a8735ec2b6c5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_23_1_Height.png using Guid(d994a0254a5f6f145a8735ec2b6c5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d7651406b98001674c638c4f85afc7') in 0.047492 seconds
-  Import took 0.053958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_30_3_Base_Color.png
-  artifactKey: Guid(bfe39d9e8d01729458c4ae02e394ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_30_3_Base_Color.png using Guid(bfe39d9e8d01729458c4ae02e394ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad11034f879d46f9458538f2ff0cbd6') in 0.048639 seconds
-  Import took 0.055228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000560 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_34_2_Base_Color.png
-  artifactKey: Guid(2c9e57518c7c0a644925b34eb07cb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_34_2_Base_Color.png using Guid(2c9e57518c7c0a644925b34eb07cb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbc36e1a7565c53f57f3e3a80bb2b29') in 0.046658 seconds
-  Import took 0.052038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_18_2_Base_Color.png
-  artifactKey: Guid(84fd05a26a79e1a4187f1e9dc620cff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_18_2_Base_Color.png using Guid(84fd05a26a79e1a4187f1e9dc620cff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea1a8f5db1ba9b6c661d56add0415f5') in 0.059115 seconds
-  Import took 0.065232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_23_1_Base_Color.png
-  artifactKey: Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_23_1_Base_Color.png using Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0835dda61dd91833ee0066383aa188bf') in 0.063959 seconds
-  Import took 0.070196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_30_3_Ambient_Occlusion.png
-  artifactKey: Guid(ffe5667996c888445be175b504c4b4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_30_3_Ambient_Occlusion.png using Guid(ffe5667996c888445be175b504c4b4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0f5787ef14f5ce0523fc0b7d00afff') in 0.050685 seconds
-  Import took 0.055237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_18_2_Roughness.png
-  artifactKey: Guid(adbe2161991a33b4aaa26a80320ef8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_18_2_Roughness.png using Guid(adbe2161991a33b4aaa26a80320ef8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4ea3582a91e9a93b0c4b9fd4ce7d3f') in 0.059500 seconds
-  Import took 0.065396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_22_4_Ambient_Occlusion.png
-  artifactKey: Guid(6c2e0a6a1421a3e48823d0e3b2c7f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_22_4_Ambient_Occlusion.png using Guid(6c2e0a6a1421a3e48823d0e3b2c7f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd871a830572f67f7daa9a8c93b637307') in 0.047922 seconds
-  Import took 0.053582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/SFX/run through mud.mp3
-  artifactKey: Guid(363a3d6471d18ed49837b8ce4a8faa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/run through mud.mp3 using Guid(363a3d6471d18ed49837b8ce4a8faa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a688120d20e472f0e0f5f9010f6e18f5') in 0.063050 seconds
-  Import took 0.068911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/ProBuilder Data/Default Material Palette.asset
-  artifactKey: Guid(90d819f2466746b458857500a0f46e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(90d819f2466746b458857500a0f46e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ad3ef42d0ff181e2104fb5363e8f5d') in 0.051266 seconds
-  Import took 0.055927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Snow Diffuse.mat
-  artifactKey: Guid(c34307182ac2cb948a6c9fc586756e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Snow Diffuse.mat using Guid(c34307182ac2cb948a6c9fc586756e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553d5dd5dd56fb2cd90c2348d30ac505') in 0.070498 seconds
-  Import took 0.075246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Water Diffuse.mat
-  artifactKey: Guid(db96e04f47f6c2a44bc6bb90f93602ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Water Diffuse.mat using Guid(db96e04f47f6c2a44bc6bb90f93602ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4dbaaf8a524822bab3be143175d33a') in 0.064727 seconds
-  Import took 0.069978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/SFX/jump.wav
-  artifactKey: Guid(66a43c0bd61fe2c4184f979f3bdbfa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/jump.wav using Guid(66a43c0bd61fe2c4184f979f3bdbfa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219c0c6718a2bba200a8abae21cedf82') in 0.024918 seconds
-  Import took 0.031191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/Stylized Grass Texture/Textures/vol_2_3_Normal.png
-  artifactKey: Guid(c3f6480e1852bf34e819f74d58c5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/vol_2_3_Normal.png using Guid(c3f6480e1852bf34e819f74d58c5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63b106f7a9a387428c0f3324fa0677e') in 0.054004 seconds
-  Import took 0.061065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/Prefabs/spike.prefab
-  artifactKey: Guid(07b8776f3d55f2a4e9c347a19ba4736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/spike.prefab using Guid(07b8776f3d55f2a4e9c347a19ba4736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c5cb3b54dadc42adc7978ee7fdbc64') in 0.068982 seconds
-  Import took 0.075223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_27_4_Base_Color.png
-  artifactKey: Guid(48c068afd10a2af469a9352793de7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_27_4_Base_Color.png using Guid(48c068afd10a2af469a9352793de7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3689a3d1890b1dd72f775024392529cf') in 0.048786 seconds
-  Import took 0.054557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000689 seconds.
-  path: Assets/Prefabs/spike.prefab
-  artifactKey: Guid(07b8776f3d55f2a4e9c347a19ba4736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/spike.prefab using Guid(07b8776f3d55f2a4e9c347a19ba4736e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c5cb3b54dadc42adc7978ee7fdbc64') in 0.056685 seconds
-  Import took 0.063983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize_Grass.mat
-  artifactKey: Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize_Grass.mat using Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63974867a560b290eab4e450bac91fa8') in 0.082318 seconds
-  Import took 0.088993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/Stylized Grass Texture/Materials/Stylize Rock.mat
-  artifactKey: Guid(d7c83a9bbdf00324b803ae1daa2ef005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Materials/Stylize Rock.mat using Guid(d7c83a9bbdf00324b803ae1daa2ef005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915cff8133ca4180473632ef5f6ca9f5') in 0.089742 seconds
-  Import took 0.096689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_23_1_Roughness.png
-  artifactKey: Guid(4f9880255d5004a44a5cc54c645af013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_23_1_Roughness.png using Guid(4f9880255d5004a44a5cc54c645af013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bf402468ffbf872e34797a07aa7829') in 0.068657 seconds
-  Import took 0.074121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Stylized Grass Texture/Textures/Vol_27_4_Height.png
-  artifactKey: Guid(b3c909dc24cb39f4e9bebeb6ff479418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Texture/Textures/Vol_27_4_Height.png using Guid(b3c909dc24cb39f4e9bebeb6ff479418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5637d45ae4af904434a46fa77b81e96e') in 0.050331 seconds
-  Import took 0.055682 seconds .
+  Time since last request: 5.016577 seconds.
+  path: Assets/Scripts/Goal.cs
+  artifactKey: Guid(e2e07b4a324578d4ab89e7c2eda29502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Goal.cs using Guid(e2e07b4a324578d4ab89e7c2eda29502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7935fec6344a52b70d11675bf9e09c') in 0.013944 seconds
+  Import took 0.017079 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001269 seconds.
+Registered in 0.000580 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -649,15 +125,126 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.939 seconds
+- Completed reload, in  0.866 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1481 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.9 MB.
-System memory in use after: 77.9 MB.
+Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 5.125400 ms (FindLiveObjects: 0.606500 ms CreateObjectMapping: 0.167400 ms MarkObjects: 4.091500 ms  DeleteObjects: 0.257000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 3.573300 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.163300 ms MarkObjects: 2.979200 ms  DeleteObjects: 0.107200 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 3.152800 ms (FindLiveObjects: 0.578700 ms CreateObjectMapping: 0.218100 ms MarkObjects: 2.216800 ms  DeleteObjects: 0.136200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.045485 seconds.
+  path: Assets/Scripts/Respawn.cs
+  artifactKey: Guid(99250200ee624ee4bad3dbdde59f00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Respawn.cs using Guid(99250200ee624ee4bad3dbdde59f00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa67947624e18a70ad394a10e8ddea1') in 0.008618 seconds
+  Import took 0.011110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129515 seconds.
+  path: Assets/Scripts/Respawn.cs
+  artifactKey: Guid(99250200ee624ee4bad3dbdde59f00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Respawn.cs using Guid(99250200ee624ee4bad3dbdde59f00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa67947624e18a70ad394a10e8ddea1') in 0.001538 seconds
+  Import took 0.004218 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 1.748900 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.486400 ms  DeleteObjects: 0.078500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/benlo/Desktop/Unity/Projects/EGD HA/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 2.119900 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.103000 ms MarkObjects: 1.730600 ms  DeleteObjects: 0.080400 ms)
+
