@@ -18,7 +18,7 @@ public class FlipperArmController : MonoBehaviour
         spring.spring = this.hitStrength;
         spring.damper = this.damper;
         
-        if(Input.GetKey(KeyCode.A))
+        if(Input.GetKey(KeyCode.K))
             spring.targetPosition = pressedPos;
         else
             spring.targetPosition = restPos;
