@@ -83,4 +83,14 @@ public class CarController : MonoBehaviour
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
     }
+
+    // private void OnTriggerEnter(Collider other){
+    //     if(other.tag == "speed"){
+    //         motorForce += 10000000f;
+
+    //         /* yield return*/ new WaitForSeconds(5);
+
+    //         motorForce -= 10000000f;
+    //     }
+    // }
 }
