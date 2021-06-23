@@ -9,6 +9,7 @@ public class FlipperArmControllerRechts : MonoBehaviour
    public float hitStrength = 100f;
    public float damper = 150f;
    public HingeJoint hinge;
+    public PhysicMaterial boden;
  
     void Start(){
     }
@@ -25,5 +26,25 @@ public class FlipperArmControllerRechts : MonoBehaviour
         
         hinge.spring = spring;
         hinge.useLimits = true;
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Car") && Input.GetKey(KeyCode.K))
+        {
+            Rigidbody player = other.gameObject.GetComponent<Rigidbody>();
+            player.mass = 10f;
+            boden.staticFriction = 0f;
+            boden.dynamicFriction = 0f;
+            player.AddForce(-300, 0, 0);
+            player.mass = 1000f;
+        }
+    }
+
+    IEnumerator delayedFriction()
+    {
+        yield return new WaitForSeconds(1);
+        boden.staticFriction = 0.6f;
+        boden.dynamicFriction = 0.6f;
     }
 }
