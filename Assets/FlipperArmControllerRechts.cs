@@ -12,6 +12,8 @@ public class FlipperArmControllerRechts : MonoBehaviour
     public PhysicMaterial boden;
  
     void Start(){
+        boden.staticFriction = 0.6f;
+        boden.dynamicFriction = 0.6f;
     }
 
     void Update() {
@@ -30,20 +32,20 @@ public class FlipperArmControllerRechts : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Car") && Input.GetKey(KeyCode.K))
+        if (other.CompareTag("Car") && Input.GetKey(KeyCode.L))
         {
             Rigidbody player = other.gameObject.GetComponent<Rigidbody>();
             player.mass = 10f;
             boden.staticFriction = 0f;
             boden.dynamicFriction = 0f;
-            player.AddForce(-300, 0, 0);
+            player.AddForce(-500, 0, 0);
             player.mass = 1000f;
         }
     }
 
     IEnumerator delayedFriction()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         boden.staticFriction = 0.6f;
         boden.dynamicFriction = 0.6f;
     }
