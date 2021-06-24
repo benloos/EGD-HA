@@ -6295,7 +6295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3205517584772290811, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 0.7
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3205517584925889720, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
@@ -6307,7 +6307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3205517584925889720, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 0.55
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3205517584962598296, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
@@ -6319,7 +6319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3205517584962598296, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 0.7
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3205517586542744969, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
@@ -6331,7 +6331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3205517586542744969, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 0.55
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4724152317373917768, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: breakForce
@@ -6355,7 +6355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4724152317373917782, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_Constraints
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4724152317373917783, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
       propertyPath: m_Name
@@ -6888,8 +6888,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_Center: {x: -1, y: -0.0000019073486, z: 0}
+  m_Size: {x: 0.5, y: 1.0000001, z: 1.0000001}
+  m_Center: {x: -0.75, y: -0.0000019073486, z: 0}
 --- !u!4 &1791230037 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4727479652966048281, guid: 0dd1dc8c1ab285047868e5f8a20a427f, type: 3}
@@ -6996,8 +6996,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -1, y: 0, z: 0}
+  m_Size: {x: 0.5, y: 1, z: 1}
+  m_Center: {x: -0.75, y: 0, z: 0}
 --- !u!4 &1882482879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
