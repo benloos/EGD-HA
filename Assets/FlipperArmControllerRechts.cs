@@ -12,8 +12,8 @@ public class FlipperArmControllerRechts : MonoBehaviour
     public PhysicMaterial boden;
  
     void Start(){
-        boden.staticFriction = 0.6f;
-        boden.dynamicFriction = 0.6f;
+        boden.staticFriction = 1f;
+        boden.dynamicFriction = 1f;
     }
 
     void Update() {
@@ -36,17 +36,17 @@ public class FlipperArmControllerRechts : MonoBehaviour
         {
             Rigidbody player = other.gameObject.GetComponent<Rigidbody>();
             player.mass = 10f;
-            boden.staticFriction = 0f;
-            boden.dynamicFriction = 0f;
+            
             player.AddForce(-500, 0, 0);
             player.mass = 1000f;
+            StartCoroutine(delayedFriction());
         }
     }
 
     IEnumerator delayedFriction()
     {
         yield return new WaitForSeconds(3);
-        boden.staticFriction = 0.6f;
-        boden.dynamicFriction = 0.6f;
+        boden.staticFriction = 1f;
+        boden.dynamicFriction = 1f;
     }
 }
