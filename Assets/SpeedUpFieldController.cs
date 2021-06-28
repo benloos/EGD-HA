@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class SpeedUpFieldController : MonoBehaviour
 {
-    public float _x = 1000000f;
-    public float _y = 1000000f;
+    public float _x = 1000f;
+    public float _y = 1000f;
     public float _z = 0f;
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other){
         if(other.tag == "Car"){
